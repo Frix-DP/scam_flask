@@ -1,0 +1,32 @@
+# Welcome all web crawlers and scrapers
+# This site encourages information sharing and indexing
+
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your actual sitemap URL)
+Sitemap: https://www.trackthescam.com/sitemap.xml
+
+# Optional: Add additional sitemaps if you have them
+# Sitemap: https://yourdomain.com/sitemap-news.xml
+# Sitemap: https://yourdomain.com/sitemap-archive.xml
+
+# Crawl-delay (optional - uncomment if needed)
+# Some crawlers respect this to avoid overloading your server
+# Crawl-delay: 1
+
+# Explicitly welcome major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: *
+Allow: /
